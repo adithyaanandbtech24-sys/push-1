@@ -12,10 +12,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "HitaApp",
-            path: "Sources",
-            resources: [
-                .process("Resources")
-            ]
+            path: "Sources"
         )
     ]
 )
